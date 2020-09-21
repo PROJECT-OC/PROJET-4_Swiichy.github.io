@@ -1,0 +1,178 @@
+/*Main-content*/
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+}
+
+/*Header*/
+
+.content-header {
+    display: flex;
+    flex-direction: column;
+}
+
+.header-top_side {
+    border-bottom: 2px solid #FDFDFD;
+}
+
+.header-top_side p{
+    text-align: center;
+    margin: 5px 0 5px 0;
+    font-size: 1em;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #B7835A;
+}
+
+.header-search_connect_bag {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content-login_bag {
+    display: flex;
+    align-items: center;
+    margin-right: 1%;
+}
+
+.login-content {
+    color: #B6B7B7;
+}
+
+.content-search {
+    display: flex;
+    align-items: center;
+    margin-left: 1%;
+}
+
+.margin-right_i {
+    margin-right: 10px;
+}
+
+.margin-left_i {
+    margin-left: 10px;
+}
+
+input {
+    border: none;
+}
+
+.fas{
+    color: #B6B7B7;
+}
+
+#color_input::placeholder {
+    color: #BABABA;
+    font-size: 1.1em;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header-title {
+    position: relative;
+    top: -20px;
+}
+.content-title {
+    text-align: center;
+    font-size: 4em;
+    font-family: 'Hanalei', cursive;
+    letter-spacing: 7px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+/*Navigation*/
+
+.list-nav {
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+    margin-top: 0px;
+}
+
+.elt-nav {
+    list-style-type: none;
+    font-size: 1.3em;
+    font-weight: 400;
+    margin: 0 40px 0px 40px;
+}
+
+.list-nav a {
+    text-decoration: none;
+    color: black;
+}
+
+/*Contenu affiche promo*/
+
+.content-promo {
+    text-align: center;
+    margin-top: 7%;
+}
+
+.line-one p{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 500;
+    margin: 0px;
+    font-size: 1.5em;
+}
+
+.line-two p, .line-three p{
+    font-size: 3.8em;
+    font-weight: 600;
+    margin: 0px;
+}
+
+.line-four p{
+    font-size: 1.5em;
+    font-family: 'Satisfy', cursive;
+    margin: 0px;
+    margin-bottom: 2%;
+}
+
+button {
+    background-color: white;
+    border: 2px solid black;
+    width: 150px;
+    height: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 1.1em;
+}
+
+button a {
+    text-decoration: none;
+    color: black;
+}
+
+/*Animation CSS*/
+
+/*Nav-Animation-Soulign*/
+.elt-nav {
+    position: relative;
+    color: black;
+    padding: 3px 0;
+  }
+   
+  .elt-nav:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    border-radius: 10px;
+    background: black;
+    transition: 800ms ease-in-out;
+  }
+   
+  .elt-nav:hover:after {
+    width: 100%;
+  }
+
+  /*Responsive*/
+
+  
+
+ 
