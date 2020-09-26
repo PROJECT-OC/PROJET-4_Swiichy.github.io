@@ -1,10 +1,11 @@
 /* Produit */
 
 
-#teddies-wrapper {
+#teddies-wrapper, #cameras-wrapper, #furnitures-wrapper {
     display: flex;
 }
-.teddies-size {
+
+.teddies-size, .cameras-size {
     width: 350px;
     height: 250px;
 }
