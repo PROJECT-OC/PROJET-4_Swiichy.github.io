@@ -1,4 +1,4 @@
-class Teddy {
+class Camera {
     constructor(id, name, price, description, imageUrl, colors) {
         this.id = id;
         this.name = name;
@@ -8,17 +8,16 @@ class Teddy {
         this.color = colors;
     }
 
- 
+
     draw(wrapper) {
         console.log(this.name);
         let html = `<div>
-            <img class="teddies-size" src="${this.imageUrl}">
-            <h1 class="teddies-title">${this.name}</h1>
-            <p class="teddies-price">${this.price/100},${this.price%100}${this.price%100}€</p>
+            <img class="cameras-size" src="${this.imageUrl}">
+            <h1 class="cameras-title">${this.name}</h1>
+            <p class="cameras-price">${this.price/100},${this.price%100}${this.price%100}€</p>
         </div>`;
         wrapper.insertAdjacentHTML('beforeend', html);
     }
 }
-
 
 

@@ -1,28 +1,10 @@
 /* Produit */
 
-.title-teddies {
-    margin-top: 3%;
-    text-align: center;
-    letter-spacing: 1px;
-    border-bottom: 2px solid black;
-    border-top: 2px solid black;
-    font-family: 'Satisfy', cursive;
-    font-size: 1.5em;
-}
 
-.content-product_teddies {
+#teddies-wrapper {
     display: flex;
-    justify-content: center;
-    margin-top: 5%;
 }
-
-.product-teddies {
-    text-align: center;
-    border: 1px solid black;
-    margin: 0 1% 0 1%;
-}
-
-.product-teddies a {
-    text-decoration: none;
-    color: black;
+.teddies-size {
+    width: 350px;
+    height: 250px;
 }
