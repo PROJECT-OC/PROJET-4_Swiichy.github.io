@@ -11,8 +11,9 @@ class Teddy {
     draw(wrapper) {
         console.log(this.name);
         let html = `<div>
-            <h1>${this.name}</h1>
-            <p>${this.description}</p>
+            <img class="teddies-size" src="${this.imageUrl}">
+            <h1 class="teddies-title">${this.name}</h1>
+            <p class="teddies-price">${this.price}</p>
         </div>`;
         wrapper.insertAdjacentHTML('beforeend', html);
     }

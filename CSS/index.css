@@ -18,11 +18,15 @@
 
 .header-top_side p{
     text-align: center;
-    margin: 5px 0 5px 0;
+    margin: 10px 0 10px 0;
     font-size: 1em;
     letter-spacing: 1px;
     text-transform: uppercase;
     color: #B7835A;
+}
+
+.background-color {
+    background-color: #FDFDFD;
 }
 
 .header-search_connect_bag {
@@ -110,13 +114,22 @@ input {
 }
 
 /*Contenu affiche promo*/
-
+.content-content_promo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 23% 0 23% 0;
+}
 .content-promo {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
-    margin: 7% 35% 0% 35%;
-    padding: 5% 5% 5% 5%;
+    padding: 2.5% 2.5% 2.5% 2.5%;
     width: 20%;
     border : 2px solid black;
+    background-color: #FDFDFD;
 }
 
 .line-one p{
@@ -140,10 +153,13 @@ input {
     margin-bottom: 10%;
 }
 
-button {
-    position: absolute;
-    left: 46%;
-    right: 46%;
+.button-p {
+    display: flex;
+    align-items: center;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    justify-content: center;
     background-color: white;
     border: 2px solid black;
     width: 150px;
@@ -153,7 +169,7 @@ button {
     font-size: 1.1em;
 }
 
-button a {
+.button-promo a{
     text-decoration: none;
     color: black;
 }
