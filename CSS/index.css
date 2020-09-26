@@ -39,6 +39,7 @@
 
 .login-content {
     color: #B6B7B7;
+    font-size: 1em;
 }
 
 .content-search {
@@ -82,6 +83,11 @@ input {
     margin-bottom: 0px;
 }
 
+.content-title a {
+    text-decoration: none;
+    color: black;
+}
+
 /*Navigation*/
 
 .list-nav {
@@ -107,7 +113,10 @@ input {
 
 .content-promo {
     text-align: center;
-    margin-top: 7%;
+    margin: 7% 35% 0% 35%;
+    padding: 5% 5% 5% 5%;
+    width: 20%;
+    border : 2px solid black;
 }
 
 .line-one p{
@@ -128,10 +137,13 @@ input {
     font-size: 1.5em;
     font-family: 'Satisfy', cursive;
     margin: 0px;
-    margin-bottom: 2%;
+    margin-bottom: 10%;
 }
 
 button {
+    position: absolute;
+    left: 46%;
+    right: 46%;
     background-color: white;
     border: 2px solid black;
     width: 150px;
@@ -170,6 +182,54 @@ button a {
   .elt-nav:hover:after {
     width: 100%;
   }
+
+/*Animation zoom*/
+  .elt-nav
+{
+    -webkit-transition: all 700ms ease-in;/*Compatibilité navigateur*/
+    -webkit-transform: scale(1); /*Compatibilité navigateur*/
+    -ms-transition: all 700ms ease-in;/*Compatibilité navigateur*/
+    -ms-transform: scale(1); /*Compatibilité navigateur*/
+    -moz-transition: all 700ms ease-in;/*Compatibilité navigateur*/
+    -moz-transform: scale(1);/*Compatibilité navigateur*/
+    transition: all 3s ease-in black; /*Permet de contrôler la vitesse d'animation - Ease-in : lent sur le début permet d'accelérer sur la fin*/
+    transform: scale(1);  
+}
+.elt-nav:hover
+{
+    -webkit-transition: all 3s ease-in;/*Compatibilité navigateur*/
+    -webkit-transform: scale(1.2);/*Compatibilité navigateur*/
+    -ms-transition: all 600ms ease-in;/*Compatibilité navigateur*/
+    -ms-transform: scale(1.2);   /*Compatibilité navigateur*/
+    -moz-transition: all 600ms ease-in;/*Compatibilité navigateur*/
+    -moz-transform: scale(1.2);/*Compatibilité navigateur*/
+    transition: all 900ms ease-in;
+    transform: scale(1.2);
+}
+
+button
+{
+    -webkit-transition: all 700ms ease-in;/*Compatibilité navigateur*/
+    -webkit-transform: scale(1); /*Compatibilité navigateur*/
+    -ms-transition: all 700ms ease-in;/*Compatibilité navigateur*/
+    -ms-transform: scale(1); /*Compatibilité navigateur*/
+    -moz-transition: all 700ms ease-in;/*Compatibilité navigateur*/
+    -moz-transform: scale(1);/*Compatibilité navigateur*/
+    transition: all 600ms ease-in black; /*Permet de contrôler la vitesse d'animation - Ease-in : lent sur le début permet d'accelérer sur la fin*/
+    transform: scale(1);  
+}
+button:hover
+{
+    -webkit-transition: all 3s ease-in;/*Compatibilité navigateur*/
+    -webkit-transform: scale(1.2);/*Compatibilité navigateur*/
+    -ms-transition: all 600ms ease-in;/*Compatibilité navigateur*/
+    -ms-transform: scale(1.2);   /*Compatibilité navigateur*/
+    -moz-transition: all 600ms ease-in;/*Compatibilité navigateur*/
+    -moz-transform: scale(1.2);/*Compatibilité navigateur*/
+    transition: all 600ms ease-in;
+    transform: scale(1.2);
+}
+
 
   /*Responsive*/
 
