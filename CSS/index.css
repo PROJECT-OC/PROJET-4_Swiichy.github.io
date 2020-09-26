@@ -118,10 +118,10 @@ input {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 23% 0 23% 0;
+    margin: 13% 0 13% 0;
 }
 .content-promo {
-    position: absolute;
+    position: absolute,fixed;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -223,27 +223,27 @@ input {
     transform: scale(1.2);
 }
 
-button
+.button-p
 {
-    -webkit-transition: all 700ms ease-in;/*Compatibilité navigateur*/
+    -webkit-transition: all 300ms ease-in;/*Compatibilité navigateur*/
     -webkit-transform: scale(1); /*Compatibilité navigateur*/
-    -ms-transition: all 700ms ease-in;/*Compatibilité navigateur*/
+    -ms-transition: all 300ms ease-in;/*Compatibilité navigateur*/
     -ms-transform: scale(1); /*Compatibilité navigateur*/
-    -moz-transition: all 700ms ease-in;/*Compatibilité navigateur*/
+    -moz-transition: all 300ms ease-in;/*Compatibilité navigateur*/
     -moz-transform: scale(1);/*Compatibilité navigateur*/
-    transition: all 600ms ease-in black; /*Permet de contrôler la vitesse d'animation - Ease-in : lent sur le début permet d'accelérer sur la fin*/
+    transition: all 300ms ease-in black; /*Permet de contrôler la vitesse d'animation - Ease-in : lent sur le début permet d'accelérer sur la fin*/
     transform: scale(1);  
 }
-button:hover
+.button-p:hover
 {
     -webkit-transition: all 3s ease-in;/*Compatibilité navigateur*/
     -webkit-transform: scale(1.2);/*Compatibilité navigateur*/
     -ms-transition: all 600ms ease-in;/*Compatibilité navigateur*/
     -ms-transform: scale(1.2);   /*Compatibilité navigateur*/
     -moz-transition: all 600ms ease-in;/*Compatibilité navigateur*/
-    -moz-transform: scale(1.2);/*Compatibilité navigateur*/
-    transition: all 600ms ease-in;
-    transform: scale(1.2);
+    -moz-transform: scale(1);/*Compatibilité navigateur*/
+    transition: all 400ms ease-in;
+    transform: scale(1.05);
 }
 
 
