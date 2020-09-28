@@ -12,9 +12,9 @@ class Furniture {
     draw(wrapper) {
         console.log(this.name);
         let html = `<div>
-            <img class="cameras-size" src="${this.imageUrl}">
-            <h1 class="cameras-title">${this.name}</h1>
-            <p class="cameras-price">${this.price/100},${this.price%100}${this.price%100}€</p>
+            <img class="furnitures-size" src="${this.imageUrl}">
+            <h1 class="furnitures-title">${this.name}</h1>
+            <p class="furnitures-price">${this.price/100},${this.price%100}${this.price%100}€</p>
         </div>`;
         wrapper.insertAdjacentHTML('beforeend', html);
     }
