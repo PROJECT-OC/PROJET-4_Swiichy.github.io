@@ -1,57 +1,126 @@
 <!doctype html>
 <html lang="fr">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!--Link-->
-    <link rel="stylesheet" href="style.css">
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!--Link-->
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="CSS/util.css">
+	<link rel="stylesheet" href="CSS/product.css">
+	<link rel="stylesheet" href="CSS/information.css">
+	<!--===============================================================================================-->
 
-    <!--Script-->
-    <script src="https://kit.fontawesome.com/b1c64ad10d.js" crossorigin="anonymous"></script>
-    <script src="JS/main.js" async></script>
-    <script src="product.js" ></script>
-    <title>Orinoco - Shop</title>
-  </head>
-  <body>
-    <div class="main-content">
-		<header>
-			<div class="content-header">
-				<div class="header-top_side">
-					<p>Livraisons rapides et retours gratuits en magasins</p>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+		integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+	<!--Script-->
+	<script src="https://kit.fontawesome.com/b1c64ad10d.js" crossorigin="anonymous"></script>
+	<title>Orinoco - Shop</title>
+</head>
+
+<body>
+	<!--Header-->
+	<header class="header-product">
+		<!--Header desktop-->
+		<div class="container-menu_header">
+			<div class="topbar">
+				<div class="topbar-social">
+					<a href="#" class="topbar-social-item fa fa-facebook"></a>
+					<a href="#" class="topbar-social-item fa fa-instagram"></a>
+					<a href="#" class="topbar-social-item fa fa-pinterest-p"></a>
+					<a href="#" class="topbar-social-item fa fa-snapchat-ghost"></a>
+					<a href="#" class="topbar-social-item fa fa-youtube-play"></a>
 				</div>
-				<div class="header-search_connect_bag">
-					<div class="content-search">
-						<i class="fas fa-search margin-right_i"></i>
-						<form action="" method="GET" class="form-search">
-							<input type="text" id ="color_input"name="product" id="search-form"
-							placeholder="Rechercher">
-						</form>
-					</div>
-					<div class="content-login_bag">
-						<div class="login">
-							<p class="login-content">S'identifier</p>
-						</div>
-						<div class="bag_content">
-							<i class="fas fa-shopping-bag margin-left_i"></i>
-						</div>
-					</div>
+
+				<span class="topbar-child1">
+					Livraisons rapides et retours gratuits en magasins
+				</span>
+
+				<div class="topbar-child2">
+					<span class="topbar-email">
+						adlpromail@gmail.com
+					</span>
 				</div>
 			</div>
-			<div class="header-title">
-				<h1 class="content-title">
-					Orinoco
-				</h1>
-			</div>
-			<nav>
-				<div class="content-nav">
-					<ul class="list-nav">
-						<li class="elt-nav"><a href="product.html">Nouveautés !</a></li>
-						<li class="elt-nav"><a href="product.html">Produits</a></li>
-						<li class="elt-nav"><a href="#">À propos</a></li>
-						<li class="elt-nav"><a href="#">Contact</a></li>
+		</div>
+
+		<div class="wrap_header">
+			<!--Logo-->
+			<a href="index.html" class="logo">
+				<img src="images/logo.png" alt="">
+			</a>
+
+			<!--Menu-->
+			<div class="wrap_menu">
+				<nav class="menu">
+					<ul class="main_menu">
+						<li>
+							<a href="product.html">Acceuil</a>
+						</li>
+						<li>
+							<a href="product.html">Shop</a>
+						</li>
+						<li>
+							<a href="panier.html">Panier</a>
+						</li>
+						<li>
+							<a href="#">Prochainement</a>
+						</li>
+						<li>
+							<a href="#">Contact</a>
+						</li>
 					</ul>
+				</nav>
+			</div>
+
+
+			<!--Header Icon-->
+			<div class="header-icons">
+				<a href="#" class="header-wrapicon1 dis-block">
+					<img src="images/icon-header-01.png" class="header-icon1" alt="ICON">
+				</a>
+
+				<span class="linedivide1"></span>
+
+				<div class="header-wrapicon2">
+					<img src="images/icon-header-02.png" class="header-icon1 js-show-header-dropdown" alt="ICON">
+					<span class="header-icons-noti">0</span>
 				</div>
-			</nav>
-		</header>
+			</div>
+		</div>
+	</header>
+
+	<div class="content-wrapper">
+		<div id="teddy-wrapper"></div>
+		<div id="camera-wrapper"></div>
+		<div id="furniture-wrapper"></div>
+	</div>
+
+	<!--Footer-->
+	<footer class="bg6">
+		<div class="t-center p-l-15 p-r-15">
+
+			<img class="h-size2" src="images/paypal.png" alt="IMG-PAYPAL">
+			<img class="h-size2" src="images/visa.png" alt="IMG-VISA">
+			<img class="h-size2" src="images/mastercard.png" alt="IMG-MASTERCARD">
+			<img class="h-size2" src="images/express.png" alt="IMG-EXPRESS">
+			<img class="h-size2" src="images/discover.png" alt="IMG-DISCOVER">
+
+		</div>
+	</footer>
+
+	<script src="JS/Teddy/Teddy.js"></script>
+	<script src="JS/Teddy/TeddiesManager.js"></script>
+	<!--===============================================================================================-->
+	<script src="JS/Camera/Camera.js"></script>
+	<script src="JS/Camera/CamerasManager.js"></script>
+	<!--===============================================================================================-->
+	<script src="JS/Furniture/Furniture.js"></script>
+	<script src="JS/Furniture/FurnituresManager.js"></script>
+	<!--===============================================================================================-->
+	<script src="JS/information.js"></script>
+	<script src="JS/localstorage.js"></script>
+	<!--===============================================================================================-->
+</body>
+</html>

@@ -1,0 +1,112 @@
+/*[ Footer ]
+===========================================================*/
+
+footer {
+    position: absolute;
+    bottom: 0;
+    padding: 15px 15px;
+    border-top: 1px solid #e5e5e5;
+}
+
+/*[ Product ]
+===========================================================*/
+#teddies-wrapper, #cameras-wrapper, #furnitures-wrapper {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #E5E5E5;
+}
+
+.content-product {
+    display: flex;
+    width: 50%;
+    align-items: center;
+    margin: auto;
+    margin-top: 10%;
+    border: 2px solid #e5e5e5;
+    border-radius: 0%;
+}
+
+.content-product > a {
+    text-decoration: none;
+    color: black;
+}
+
+.content-product > a:hover{
+    text-decoration: none;
+    color: black;
+}
+
+/*[ Img-Product ]
+===========================================================*/
+.img-product {
+    width: 500px;
+    height: 400px;
+    transition: 0ms;
+    border-top-left-radius: 0%;
+    border-top-right-radius: 0%;
+    border-right: 2px solid #e5e5e5;
+}
+
+.img-product:hover {
+    opacity: 1;
+    transition: 0ms;
+}
+
+.name-product {
+    font-size: 1.4em;
+    font-weight: lighter;
+}
+
+.price-product {
+    font-size: 1.2em;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+/*[ BotSide-Product ]
+===========================================================*/
+.botside-product {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: initial;
+    margin-left: 3%;
+    margin-right: 3%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.name-product {
+    margin-top: 0px;
+    margin-bottom: 25px;
+}
+
+.content-select {
+    display: flex;
+    flex-direction: column;
+}
+
+#color-select {
+    width: 60%;
+}
+
+.content-select_button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content-button {
+    position: relative;
+    top: 50px;
+}
+
+.color-text_button {
+    font-family: 'Roboto', sans-serif;
+    color: #e65540;
+    text-align: center;
+    padding-left: 5%;
+}
+
+.btn {
+    width: 180px;
+}
